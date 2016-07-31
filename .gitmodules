@@ -1,0 +1,9 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:waleedsamy/hello-world-expresssjs-docker.git
+[submodule "nginx"]
+	path = nginx
+	url = git@github.com:waleedsamy/nginx-confd-consul-docker.git
+[submodule "coreos-vagrant"]
+	path = coreos-vagrant
+	url = git@github.com:coreos/coreos-vagrant.git
