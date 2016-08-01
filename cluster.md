@@ -34,7 +34,7 @@ node4:
     --name=registrator \
     --volume=/var/run/docker.sock:/tmp/docker.sock \
     gliderlabs/registrator:latest \
-    consul://$HOST_IP:8500
+    consulkv://$HOST_IP:8500/prefix
 
   # run 3 container of our application
   docker run -d -P --hostname api waleedsamy/hello-world-expressjs-docker
