@@ -10,7 +10,7 @@ docker run -d --name=registrator --volume=/var/run/docker.sock:/tmp/docker.sock 
 
 # run api, may have more than one to see confd magic happen
 # don't set container name or map host ip your self
-docker run -d -P --hostname api waleedsamy/hello-world-expresssjs-docker
+docker run -d -P --hostname api waleedsamy/hello-world-expressjs-docker
 
 
 # run nginx (LB) with confd

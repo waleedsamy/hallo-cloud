@@ -37,9 +37,9 @@ node4:
     consul://$HOST_IP:8500
 
   # run 3 container of our application
-  docker run -d -P --hostname api waleedsamy/hello-world-expresssjs-docker
-  docker run -d -P --hostname api waleedsamy/hello-world-expresssjs-docker
-  docker run -d -P --hostname api waleedsamy/hello-world-expresssjs-docker
+  docker run -d -P --hostname api waleedsamy/hello-world-expressjs-docker
+  docker run -d -P --hostname api waleedsamy/hello-world-expressjs-docker
+  docker run -d -P --hostname api waleedsamy/hello-world-expressjs-docker
  ```
 
 node5:

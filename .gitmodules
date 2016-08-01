@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = git@github.com:waleedsamy/hello-world-expresssjs-docker.git
+	url = git@github.com:waleedsamy/hello-world-expressjs-docker.git
 [submodule "nginx"]
 	path = nginx
 	url = git@github.com:waleedsamy/nginx-confd-consul-docker.git
