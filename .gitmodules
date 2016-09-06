@@ -7,3 +7,6 @@
 [submodule "coreos-vagrant"]
 	path = coreos-vagrant
 	url = git@github.com:waleedsamy/coreos-vagrant.git
+[submodule "ubuntu-vagrent"]
+	path = ubuntu-vagrent
+	url = git@github.com:waleedsamy/ubuntu-vagrant.git
